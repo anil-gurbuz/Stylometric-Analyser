@@ -1,0 +1,1101 @@
+<HTML>
+
+	<!-- #BeginTemplate "../../../Lextek.data/Templates/onix_exp_template.html" -->
+
+		<HEAD>
+			<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+			<meta name="generator" content="Adobe GoLive 6">
+			<title>Stopword List 1</title>
+			<!-- #BeginHeadLocked "" -->
+				<META NAME="GENERATOR" CONTENT="Clark Goble
+Lextek International
+(801) 655-1994
+Lextek.com">
+				<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+				<META NAME="Author" CONTENT="Clark Goble
+Art Pollard">
+				<META NAME="description" CONTENT="Onix Full Text Indexing, Search & Retrieval Toolkit Manual">
+				<META NAME="keywords" CONTENT="text search,text indexing,word search,information retrieval,text retrieval,text indexing,text index,onix,scanning,OCR,document management">
+				<link href="http://www.lextek.com//manuals/manual.css" rel="stylesheet" media="screen">
+			<!-- #EndHeadLocked -->
+		</HEAD>
+
+		<BODY BGCOLOR="#ffffff">
+			<BASEFONT FACE="HELVETICA, ARIAL" COLOR=BLACK>
+			<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0"
+
+HEIGHT="110">
+				<TR>
+					<TD WIDTH="100%" BGCOLOR="#616887" ALIGN="CENTER">
+						<H1><FONT COLOR="#ffffff"><span class="ctitle1"><span class="ctitle">Onix Text Retrieval Toolkit<BR>
+									</span></span></FONT><FONT COLOR="#ffffff" SIZE="+2" FACE="Arial"><span class="ctitle2">API Reference</span></FONT></H1>
+					</TD>
+				</TR>
+			</TABLE>
+			<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="10">
+				<TR>
+					<td width="18%" bgcolor="#8086a3" valign="TOP">
+						<dl>
+							<dt><b><font color="#ced0db"><span class="listhead">API</span></font></b>
+						</dl>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/dynamicapi.html">Function List</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/callsbygroup.html">Topical List</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"></td>
+								<td></td>
+							</tr>
+						</table>
+						<p><b><font color="#ced0db"><span class="listhead">Main Index</span></font></b></p>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/index.html">Introduction</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/samplecalls.html">Calling Sequences</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/processingqueries.html">Query Processing</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/ranking.html">Relevancy Ranking</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/types.html">Data Types</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/manuals/onix/errors.html">Error Handling</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16">&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><b><font size="-1"><a href="http://www.lextek.com/support/">Support</a></font></b></td>
+							</tr>
+							<tr>
+								<td width="10"></td>
+								<td width="16">&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+						<dl>
+							<dt><b><font color="#ced0db"><span class="listhead">Lextek Products</span></font></b>
+						</dl>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><font size="-1"><a href="http://www.lextek.com/onix/">Onix Text Retrieval Engine</a></font></td>
+							</tr>
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><font size="-1"><a href="http://www.lextek.com/profiler/">Lextek Document Profiler &amp; Categorizer</a></font></td>
+							</tr>
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><font size="-1"><a href="http://www.lextek.com/brevity/">Brevity Document Summarizer</a></font></td>
+							</tr>
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><font size="-1"><a href="http://www.lextek.com/routex/">RouteX Routing Engine</a></font></td>
+							</tr>
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"><IMG SRC="http://www.lextek.com/manuals/onix/bullet.gif" WIDTH="6" HEIGHT="11" ALIGN="TOP" BORDER="0"
+
+          NATURALSIZEFLAG="3"></td>
+								<td><font size="-1"><a href="http://www.lextek.com/langid/">Language Identifier</a></font></td>
+							</tr>
+							<tr>
+								<td width="10" valign="TOP"></td>
+								<td width="16" valign="TOP"></td>
+								<td></td>
+							</tr>
+						</table>
+					</td>
+					<td width="82%" valign="TOP">
+						<p align=RIGHT></p>
+						<blockquote>
+							<div align="left">
+								<!-- #BeginEditable "Body" -->
+									<div align="left">
+										<h2>Stop Word List 1</h2>
+										<p><br>
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											This stopword list is probably the most widely used stopword list. It covers a wide number of stopwords without getting too aggressive and including too many words which a user might search upon. This wordlist contains 429 words.</p>
+										<p>&nbsp;</p>
+										<blockquote>
+											<pre># Freely available stopword list.  This stopword
+
+# list provides a nice balance between coverage
+
+# and size.
+
+#
+
+#
+
+#
+
+a
+
+about
+
+above
+
+across
+
+after
+
+again
+
+against
+
+all
+
+almost
+
+alone
+
+along
+
+already
+
+also
+
+although
+
+always
+
+among
+
+an
+
+and
+
+another
+
+any
+
+anybody
+
+anyone
+
+anything
+
+anywhere
+
+are
+
+area
+
+areas
+
+around
+
+as
+
+ask
+
+asked
+
+asking
+
+asks
+
+at
+
+away
+
+b
+
+back
+
+backed
+
+backing
+
+backs
+
+be
+
+became
+
+because
+
+become
+
+becomes
+
+been
+
+before
+
+began
+
+behind
+
+being
+
+beings
+
+best
+
+better
+
+between
+
+big
+
+both
+
+but
+
+by
+
+c
+
+came
+
+can
+
+cannot
+
+case
+
+cases
+
+certain
+
+certainly
+
+clear
+
+clearly
+
+come
+
+could
+
+d
+
+did
+
+differ
+
+different
+
+differently
+
+do
+
+does
+
+done
+
+down
+
+down
+
+downed
+
+downing
+
+downs
+
+during
+
+e
+
+each
+
+early
+
+either
+
+end
+
+ended
+
+ending
+
+ends
+
+enough
+
+even
+
+evenly
+
+ever
+
+every
+
+everybody
+
+everyone
+
+everything
+
+everywhere
+
+f
+
+face
+
+faces
+
+fact
+
+facts
+
+far
+
+felt
+
+few
+
+find
+
+finds
+
+first
+
+for
+
+four
+
+from
+
+full
+
+fully
+
+further
+
+furthered
+
+furthering
+
+furthers
+
+g
+
+gave
+
+general
+
+generally
+
+get
+
+gets
+
+give
+
+given
+
+gives
+
+go
+
+going
+
+good
+
+goods
+
+got
+
+great
+
+greater
+
+greatest
+
+group
+
+grouped
+
+grouping
+
+groups
+
+h
+
+had
+
+has
+
+have
+
+having
+
+he
+
+her
+
+here
+
+herself
+
+high
+
+high
+
+high
+
+higher
+
+highest
+
+him
+
+himself
+
+his
+
+how
+
+however
+
+i
+
+if
+
+important
+
+in
+
+interest
+
+interested
+
+interesting
+
+interests
+
+into
+
+is
+
+it
+
+its
+
+itself
+
+j
+
+just
+
+k
+
+keep
+
+keeps
+
+kind
+
+knew
+
+know
+
+known
+
+knows
+
+l
+
+large
+
+largely
+
+last
+
+later
+
+latest
+
+least
+
+less
+
+let
+
+lets
+
+like
+
+likely
+
+long
+
+longer
+
+longest
+
+m
+
+made
+
+make
+
+making
+
+man
+
+many
+
+may
+
+me
+
+member
+
+members
+
+men
+
+might
+
+more
+
+most
+
+mostly
+
+mr
+
+mrs
+
+much
+
+must
+
+my
+
+myself
+
+n
+
+necessary
+
+need
+
+needed
+
+needing
+
+needs
+
+never
+
+new
+
+new
+
+newer
+
+newest
+
+next
+
+no
+
+nobody
+
+non
+
+noone
+
+not
+
+nothing
+
+now
+
+nowhere
+
+number
+
+numbers
+
+o
+
+of
+
+off
+
+often
+
+old
+
+older
+
+oldest
+
+on
+
+once
+
+one
+
+only
+
+open
+
+opened
+
+opening
+
+opens
+
+or
+
+order
+
+ordered
+
+ordering
+
+orders
+
+other
+
+others
+
+our
+
+out
+
+over
+
+p
+
+part
+
+parted
+
+parting
+
+parts
+
+per
+
+perhaps
+
+place
+
+places
+
+point
+
+pointed
+
+pointing
+
+points
+
+possible
+
+present
+
+presented
+
+presenting
+
+presents
+
+problem
+
+problems
+
+put
+
+puts
+
+q
+
+quite
+
+r
+
+rather
+
+really
+
+right
+
+right
+
+room
+
+rooms
+
+s
+
+said
+
+same
+
+saw
+
+say
+
+says
+
+second
+
+seconds
+
+see
+
+seem
+
+seemed
+
+seeming
+
+seems
+
+sees
+
+several
+
+shall
+
+she
+
+should
+
+show
+
+showed
+
+showing
+
+shows
+
+side
+
+sides
+
+since
+
+small
+
+smaller
+
+smallest
+
+so
+
+some
+
+somebody
+
+someone
+
+something
+
+somewhere
+
+state
+
+states
+
+still
+
+still
+
+such
+
+sure
+
+t
+
+take
+
+taken
+
+than
+
+that
+
+the
+
+their
+
+them
+
+then
+
+there
+
+therefore
+
+these
+
+they
+
+thing
+
+things
+
+think
+
+thinks
+
+this
+
+those
+
+though
+
+thought
+
+thoughts
+
+three
+
+through
+
+thus
+
+to
+
+today
+
+together
+
+too
+
+took
+
+toward
+
+turn
+
+turned
+
+turning
+
+turns
+
+two
+
+u
+
+under
+
+until
+
+up
+
+upon
+
+us
+
+use
+
+used
+
+uses
+
+v
+
+very
+
+w
+
+want
+
+wanted
+
+wanting
+
+wants
+
+was
+
+way
+
+ways
+
+we
+
+well
+
+wells
+
+went
+
+were
+
+what
+
+when
+
+where
+
+whether
+
+which
+
+while
+
+who
+
+whole
+
+whose
+
+why
+
+will
+
+with
+
+within
+
+without
+
+work
+
+worked
+
+working
+
+works
+
+would
+
+x
+
+y
+
+year
+
+years
+
+yet
+
+you
+
+young
+
+younger
+
+youngest
+
+your
+
+yours
+
+z
+</pre>
+										</blockquote>
+										<p></p>
+									</div>
+								<!-- #EndEditable --></div>
+							<p><b><font color="#5f6583" size="+1"><span class="funchead">See Also</span></font></b></p>
+							<blockquote>
+								<p><!-- #BeginEditable "Also" --><A HREF="ixCreateStopWordList.html">ixCreateStopWordList</A>,
+<A HREF="ixDeleteStopWordList.html">ixDeleteStopWordList</A>,
+<A HREF="ixAddStopWord.html">ixAddStopWord</A>, <A HREF="ixAddStopWordList.html">ixAddStopWordList</A>,
+<A HREF="ixIsStopWord.html">ixIsStopWord</A>, <A HREF="ixNumStopWords.html">ixNumStopWords</A><!-- #EndEditable --></p>
+								<p>&nbsp;</p>
+								<blockquote>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<blockquote>
+										<p>&nbsp;</p>
+									</blockquote>
+								</blockquote>
+							</blockquote>
+						</blockquote>
+						<p>&nbsp;</p>
+					</td>
+				</TR>
+			</TABLE>
+			<P>
+		</BODY>
+
+	<!-- #EndTemplate -->
+
+</HTML>
+
+
+
